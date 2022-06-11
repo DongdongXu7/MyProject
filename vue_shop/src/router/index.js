@@ -23,7 +23,16 @@ const routes = [
     {
       path: '/users',
       component: () => import('../components/home/User')
-    }]
+    },
+    {
+      path: '/rights',
+      component: () => import('../components/home/Rights')
+    },
+    {
+      path: '/roles',
+      component: () => import('../components/home/Roles')
+    }
+  ]
   }
 ]
 
