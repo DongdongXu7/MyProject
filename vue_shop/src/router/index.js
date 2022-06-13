@@ -31,8 +31,20 @@ const routes = [
     {
       path: '/roles',
       component: () => import('../components/home/Roles')
+    },
+    {
+      path: '/goods',
+      component: () => import('../components/home/Goods')
+    },
+    {
+      path: '/categories',
+      component: () => import('../components/home/Category')
+    },
+    {
+      path: '/params',
+      component: () => import('../components/home/Params')
     }
-  ]
+    ]
   }
 ]
 
